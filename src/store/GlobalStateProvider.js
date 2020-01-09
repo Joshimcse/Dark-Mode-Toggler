@@ -1,4 +1,4 @@
-import React from 'reacat';
+import React from 'react';
 import useGlobalState from './useGlobalState';
 import Context from './context';
 
