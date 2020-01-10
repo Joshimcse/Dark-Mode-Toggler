@@ -15,7 +15,7 @@ const reducer = (state, action) => {
 
 const useGloablState = () => {
   const [state, dispatch] = useReducer(reducer, {
-    isDark: false,
+    isDark: true,
   });
 
   return { state, dispatch };
