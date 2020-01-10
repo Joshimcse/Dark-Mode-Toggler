@@ -1,6 +1,7 @@
 import React from 'react';
-import {css} from "@emotion/core"
+import { css } from '@emotion/core';
 import Layout from '../components/Layout';
+import Toggle from '../components/Toggle';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         `}
       >
         <h1>Dark Mode Toggle</h1>
+        <Toggle />
       </div>
     </Layout>
   );
