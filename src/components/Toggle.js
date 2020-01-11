@@ -10,7 +10,9 @@ const Toggle = () => {
   return (
     <>
       <input
+        onClick={() => dispatch({ type: 'TOGGLE_DARK_MODE' })}
         type="checkbox"
+        defaultChecked={state.isDark ? true : false}
         id="switch"
         css={css`
           &[type='checkbox'] {
